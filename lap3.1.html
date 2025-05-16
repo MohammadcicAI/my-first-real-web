@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Form Examples</title>
+</head>
+<body>
+    <h1>Form Examples</h1>
+    
+    <!-- Form 1: Basic Information -->
+    <form id="personalInfo" name="personalInfo" action="/action_page.php" method="post" autocomplete="on"maxlength="50" novalidate"disables HTML5 validation">
+        <h2>Personal Information</h2>
+        <fieldset>
+            <legend>Basic Details</legend>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required placeholder="Enter your full name" maxlength="50"required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com"><br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required maxlength="8"><br><br>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890"><br><br>
+            
+            <label for="birthdate">Birth Date:</label>
+            <input type="date" id="birthdate" name="birthdate"><br><br>
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="18" max="120" step="1"><br><br>
+            
+            <label for="website">Website:</label>
+            <input type="url" id="website" name="website" placeholder="https://example.com"><br><br>
+            
+            <label for="color">Favorite Color:</label>
+            <input type="color" id="color" name="color" value="#ff0000"><br><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Additional Information</legend>
+            <label for="bio">Biography:</label><br>
+            <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Tell us about yourself..."></textarea><br><br>
+            
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="" selected disabled>Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br><br>
+            
+            <label>Marital Status:</label><br>
+            <input type="radio" id="single" name="marital" value="single">
+            <label for="single">Single</label><br>
+            <input type="radio" id="married" name="marital" value="married">
+            <label for="married">Married</label><br>
+            <input type="radio" id="divorced" name="marital" value="divorced">
+            <label for="divorced">Divorced</label><br><br>
+            
+            <label>Interests:</label><br>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label><br>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">music</label><br>
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading">Reading</label><br><br>
+        </fieldset>
+        
+        <input type="submit" value="Submit Personal Info">
+        <input type="reset" value="Reset Form">
+    </form>
+    
+    <hr>
+    
+    <!-- Form 2: Product Order -->
+    <form id="productOrder" name="productOrder" action="/action_page.php" method="post" enctype="multipart/form-data">
+        <h2>Product Order Form</h2>
+        <fieldset>
+            <legend>Product Selection</legend>
+            <label for="product">Choose a product:</label>
+            <select id="product" name="product" size="3" multiple>
+                <optgroup label="Electronics">
+                    <option value="laptop">Laptop</option>
+                    <option value="phone">Smartphone</option>
+                    <option value="tablet">Tablet</option>
+                    
+                      <label for="Quantity ">Quantity </label>
+            <input type="number" id="Quantity " name="Quantity " min="1" max="10" step="1"><br>
+                </optgroup>
+
+       </optgroup>
