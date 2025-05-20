@@ -100,8 +100,7 @@
   display: grid;
   grid-template-areas:
     "header header"
-    "menu content"
-    "footer footer";
+    "menu content";
   grid-template-columns: 2fr 3fr;
   gap: 5px;
   background-color: #8321f3;
