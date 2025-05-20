@@ -1,5 +1,5 @@
 
-  
+                            /*liner*/
 
     .container {
       width: 800px;
@@ -71,7 +71,7 @@
       font-weight: bold;
       color: #444;
     }
-
+                                         /*links*/
     .links {
       background-color: rgb(207, 22, 22);
       padding: 15px;
@@ -94,7 +94,7 @@
     a:active {
       color: green;
     }
-
+                                 /* gride */
 .container {
 
   display: grid;
@@ -126,7 +126,7 @@
 .container > div.footer {
   grid-area: footer;
 }
-
+                              /*gallery*/
 div.gallery {
   margin: 50px;
   border: 1px solid #ccc;
@@ -153,8 +153,8 @@ div.desc {
   height: 0;
   overflow: hidden;
   max-width: 100%;
-}
-
+}                  
+                                            /* غير مستعملvideo*/
 .video-container iframe {
   position: absolute;
   top: 0;
