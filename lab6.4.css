@@ -27,20 +27,6 @@
       color: #b60000;
     }
 
-    .circle {
-      position: absolute;
-      bottom: -120px;
-      right: -20px;
-      width: 80px;
-      height: 80px;
-      background-color: coral;
-      color: white;
-      font-weight: bold;
-      border-radius: 50%;
-      text-align: center;
-      line-height: 80px;
-      z-index: 10;
-    }
 
     .section {
       background-color: #e6e0f8;
@@ -94,7 +80,7 @@
 
     a:link {
       color: blue;
-      text-decoration: underline;
+      ;
     }
 
     a:visited {
@@ -177,3 +163,9 @@ div.desc {
   height: 70%;
   border: 0;
 }
+
+
+
+
+
+
