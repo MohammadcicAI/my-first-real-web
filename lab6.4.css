@@ -100,7 +100,8 @@
   display: grid;
   grid-template-areas:
     "header header"
-    "menu content";
+    "menu content"
+     "footer footer";
   grid-template-columns: 2fr 3fr;
   gap: 5px;
   background-color: #8321f3;
@@ -122,9 +123,15 @@
 .container > div.content {
   grid-area: content;
 }
-.container > div.footer {
-  grid-area: footer;
-}
+
+
+  .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+
                               /*gallery*/
 div.gallery {
   margin: 50px;
